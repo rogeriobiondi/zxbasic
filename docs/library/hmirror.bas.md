@@ -43,7 +43,6 @@ This one below is faster, and smaller. You should use this one:
 Function fastcall hMirror (number as uByte) as uByte
 asm
 ;17 bytes and 66 clock cycles
-Reverse:
     ld b,a       ;b=ABCDEFGH
     rrca         ;a=HABCDEFG
     rrca         ;a=GHABCDEF
